@@ -14,7 +14,7 @@ function App() {
       <div className="container">
         {!isActive ? ( // Check if customer is active
           <>
-            <h1 className="text-center" style={{marginBottom:'100px'}}>Redux Bank System</h1>
+            <h1 className="text-center" style={{marginBottom:'100px'}}>FlexiBank</h1>
             <CreateCustomer />
           </>
         ) : (
