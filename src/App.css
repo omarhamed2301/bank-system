@@ -79,3 +79,9 @@ input {
 input:focus {
   border-color: #3397f3;
 }
+@media (max-width: 767px) {
+  .createCustomer .col-lg-5{
+    height: 10px !important;
+    visibility: hidden !important;
+  }
+}
