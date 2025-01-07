@@ -8,11 +8,7 @@ const store = configureStore({
         customer: customerReducer, 
     }
 })
-// const reducers = combineReducers({
-//   account: accountReducer,
-//   customer: customerReducer,
-// });
-// const store = createStore(reducers);
+
 
 export default store;
 
